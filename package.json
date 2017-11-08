@@ -5,7 +5,8 @@
   "main": "mongo_create_collection.js",
   "dependencies": {
     "express": "^4.16.2",
-    "mongodb": "^2.2.33"
+    "mongodb": "^2.2.33",
+    "mongoose": "^4.13.0"
   },
   "devDependencies": {},
   "scripts": {
