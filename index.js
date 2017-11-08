@@ -1,5 +1,8 @@
 var express = require('Express');
 var app = express();
+var mongoose = require('mongoose');
+mongoose.connect('mongodb://localhost/my_db');
+
 app.use(express.static('public'));
 
 var things = require('./routes.js');
